@@ -1,0 +1,103 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {},
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "door_img",
+            {
+              "url": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMzc0NjN8MHwxfHNlYXJjaHw4fHxmcnVpdHxlbnwwfHx8fDE2ODAxMzEzMzY&ixlib=rb-4.0.3&q=85&rect=0%2C0%2C3648%2C5472&w=3648&h=5472",
+              "origin": {
+                "id": "pCjw_ygKCv0",
+                "url": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMzc0NjN8MHwxfHNlYXJjaHw4fHxmcnVpdHxlbnwwfHx8fDE2ODAxMzEzMzY&ixlib=rb-4.0.3&q=85",
+                "width": 3648,
+                "height": 5472
+              },
+              "width": 3648,
+              "height": 5472,
+              "edit": {
+                "background": "transparent",
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ],
+          [
+            "door_number",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Number",
+              "value": "10"
+            }
+          ],
+          [
+            "door_text",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "Hey"
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "door_number",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Number",
+              "value": "12"
+            }
+          ],
+          [
+            "door_text",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "fact",
+              "type": "Text"
+            }
+          ],
+          [
+            "door_img",
+            {
+              "url": "https://images.unsplash.com/photo-1421494756418-72f0f89c6bfd?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMzc0NjN8MHwxfHNlYXJjaHwyOXx8ZnJ1aXR8ZW58MHx8fHwxNjgwMTMxMzM2&ixlib=rb-4.0.3&q=85",
+              "origin": {
+                "id": "GoKXJaQoLQs",
+                "url": "https://images.unsplash.com/photo-1421494756418-72f0f89c6bfd?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMzc0NjN8MHwxfHNlYXJjaHwyOXx8ZnJ1aXR8ZW58MHx8fHwxNjgwMTMxMzM2&ixlib=rb-4.0.3&q=85",
+                "width": 1800,
+                "height": 2700
+              },
+              "width": 1800,
+              "height": 2700,
+              "edit": {
+                "background": "transparent",
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

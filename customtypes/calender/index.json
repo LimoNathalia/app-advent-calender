@@ -1,0 +1,59 @@
+{
+  "id": "calender",
+  "label": "Calender",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "calender_title": {
+        "type": "Text",
+        "config": {
+          "label": "Calender Title",
+          "placeholder": ""
+        }
+      },
+      "calender_description": {
+        "type": "Text",
+        "config": {
+          "label": "Calender Description",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "door": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": ""
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": ""
+        }
+      },
+      "meta_img": {
+        "type": "Image",
+        "config": {
+          "label": "Meta Img",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

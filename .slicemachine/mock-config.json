@@ -1,0 +1,12 @@
+{
+  "_cts": {
+    "calender": {}
+  },
+  "slices": {
+    "Door": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}

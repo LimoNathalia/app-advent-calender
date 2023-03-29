@@ -1,3 +1,28 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": { "browser": true, "node": true, "es6": true },
+  "extends": [
+    "prettier",
+    "plugin:prettier/recommended",
+    "next/core-web-vitals",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-shadow": "warn",
+    "no-nested-ternary": "off",
+    "no-unescaped-entities": "off",
+    "no-console": "off",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off",
+    "import/extensions": "off",
+    "no-plusplus": "off",
+    "eqeqeq": "off",
+    "no-use-before-define": "off"
+  }
 }
